@@ -45,7 +45,7 @@ Aqui estão reunidos exercícios, práticas, anotações e projetos desenvolvido
 - > Sistema de Cadastro
 - > Aplicativo Mobile
 - > Website Responsivo
-- > Website de músicas
+- > Website de Músicas
 - > Projeto Integrador
 
 ## Como usar este repositório
