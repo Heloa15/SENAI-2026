@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Filmes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1 class="logo">CineArt</h1>
+</header>
+
+<div class="container">
+
+<button class="btn-cadastrar" onclick="abrirModal()">
+Cadastrar Filme
+</button>
+
+<select id="filtroGenero" onchange="filtrarGenero()">
+<option value="todos">Todos os gêneros</option>
+<option value="Ação">Ação</option>
+<option value="Comédia">Comédia</option>
+<option value="Drama">Drama</option>
+<option value="Terror">Terror</option>
+<option value="Aventura">Aventura</option>
+<option value="Romance">Romance</option>
+<option value="Policial">Policial</option>
+<option value="Documentário">Documentário</option>
+<option value="Animação">Animação</option>
+<option value="Fantasia">Fantasia</option>
+</select>
+
+<table id="tabelaFilmes">
+
+<thead>
+<tr>
+<th>Capa</th>
+<th>Nome</th>
+<th>Gênero</th>
+<th>Ano</th>
+<th>Classificação</th>
+<th>Produtora</th>
+<th>Ação</th>
+</tr>
+</thead>
+
+<tbody id="listaFilmes"></tbody>
+
+</table>
+
+</div>
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span class="fechar" onclick="fecharModal()">X</span>
+
+<h2>Cadastrar Filme</h2>
+
+<input type="text" id="capa" placeholder="Link da imagem da capa">
+<input type="text" id="nome" placeholder="Nome do filme">
+<input type="text" id="genero" placeholder="Gênero">
+<input type="number" id="ano" placeholder="Ano">
+<input type="text" id="classificacao" placeholder="Classificação">
+<input type="text" id="produtora" placeholder="Produtora">
+
+<button onclick="salvarFilme()">Salvar Filme 🎥</button>
+<button onclick="editar()">Editar</button>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

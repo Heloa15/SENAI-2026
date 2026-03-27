@@ -1,0 +1,21 @@
+body {
+    background-color: #fce4ec;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: #880e4f;
+}
+
+input, button {
+    padding: 8px;
+    margin: 10px;
+}
+
+button {
+    background-color: #c2185b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
