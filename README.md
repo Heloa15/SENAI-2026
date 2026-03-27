@@ -58,5 +58,4 @@ Aqui estão reunidos exercícios, práticas, anotações e projetos desenvolvido
 Heloá Vitória de Oliveira
 Estudante de Desenvolvimento de Sistemas - SENAI
 
-GitHub:
-https://github.com/seu-usuario
+
