@@ -17,4 +17,4 @@ previsao-tempo/
 └── README.md (opcional)
 ```
 ## Visualização da Tela 
- ![print](./assets/print.png)
+ 
